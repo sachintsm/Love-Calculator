@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Love_Calculator</string>
+    <string name="btn1">Continue</string>
+    <string name="btn2">Clear</string>
+    <string name="btn3">Exit</string>
+    <string name="ckb1">Mute</string>
+
+    <string name="btn4">Calculate</string>
+    <string name="btn5">Clear</string>
+    <string name="btn6">Exit</string>
+
+    <string name="btn7">Check Again</string>
+    <string name="btn8">Exit</string>
+
+</resources>
