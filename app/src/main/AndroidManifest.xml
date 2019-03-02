@@ -19,6 +19,7 @@
         </activity>
 
         <service android:name=".backMusic" />
+        <receiver android:name=".MyReceiver"></receiver>
     </application>
 
 </manifest>

@@ -7,9 +7,4 @@
 
     <string name="btn4">Calculate</string>
     <string name="btn5">Clear</string>
-    <string name="btn6">Exit</string>
-
-    <string name="btn7">Check Again</string>
-    <string name="btn8">Exit</string>
-
 </resources>

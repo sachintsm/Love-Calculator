@@ -1,11 +1,13 @@
 package com.industrialmaster.sachin_app1;
 
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     CheckBox ckb1;
@@ -15,6 +17,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        IntentFilter filter = new IntentFilter();
+        filter.addAction("android.intent.action.PHONE_STATE");
+        MyReceiver receiver = new MyReceiver();
+        registerReceiver(receiver,filter);
+
+        //Toast.makeText(this,"Registered",Toast.LENGTH_SHORT).show();
 
         Intent intent1 = new Intent(MainActivity.this,backMusic.class);
         startService(intent1);
