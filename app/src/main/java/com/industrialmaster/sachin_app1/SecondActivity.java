@@ -87,7 +87,7 @@ public class SecondActivity extends AppCompatActivity {
         int tot1, tot2 = 0;
         int tot3, tot4 = 0;
         int total;
-        int[] array = {50, 62, 43, 18, 29, 80, 85, 98, 90, 72, 35, 42, 56, 66, 70, 22, 43, 88, 4, 68, 63};
+        int[] array = {50, 62, 43, 18, 29, 80,99, 98, 90, 72, 35, 42, 56, 66, 70, 22, 43, 88, 4, 68, 63};
 
         while (a > 0) {
             while (a != 0) {
